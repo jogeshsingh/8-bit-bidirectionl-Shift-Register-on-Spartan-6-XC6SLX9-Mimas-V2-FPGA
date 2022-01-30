@@ -1,0 +1,45 @@
+CONFIG VCCAUX = "3.3" ;
+
+   NET "i_clk"      LOC = V10 | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+
+////******************inputs *****************************////////////////////
+    NET "a_in"         LOC = F18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+  	  NET "ld"         LOC = E16  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+	  NET "CNT"         LOC = F17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+	 ##NET "d_in[0]"         LOC = C17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
+    #NET "d_in[1]"         LOC = C18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP;
+   # NET "d_in[2]"         LOC = D17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+    # NET "d_in[3]"         LOC = D18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+	 
+	 
+	NET "rst_n"           LOC = M18   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; 
+
+	 ////*****************outputs ****************************//////
+	 
+ ##NET "o_TEMPout[7]"              LOC = P15  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+  #  NET "o_TEMPout[6]"              LOC = P16  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+   # NET "o_TEMPout[5]"              LOC = N15  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+   # NET "o_TEMPout[4]"              LOC = N16  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+
+  # NET "o_TEMPout[3]"              LOC = U17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+   ## NET "o_TEMPout[2]"              LOC = U18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+   ### NET "o_TEMPout[1]"              LOC = T17  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+    #### NET "o_TEMPout[0]"              LOC = T18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ; 
+	 
+	 
+	 
+	 
+	 NET "o_TEMPout[7]"            LOC = H17   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	  NET "o_TEMPout[6]"            LOC = K15   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	  NET "o_TEMPout[5]"            LOC = R11   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "o_TEMPout[4]"            LOC = U13   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "o_TEMPout[3]"            LOC = U8  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "o_TEMPout[2]"            LOC = R5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "o_TEMPout[1]"            LOC = U7  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 NET "o_TEMPout[0]"            LOC = U5  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
+	 
+	 
+	 
+	 
+	 
+	 

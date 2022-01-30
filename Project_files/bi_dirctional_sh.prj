@@ -1,0 +1,3 @@
+verilog work "Top_shift_reg.v"
+verilog work "clk_divider_t.v"
+verilog work "bi_dirctional_sh.v"

@@ -27,7 +27,8 @@ CONFIG VCCAUX = "3.3" ;
     #### NET "o_TEMPout[0]"              LOC = T18  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ; 
 	 
 	 
-	 
+	 # is presenting that line is not used .
+	## here below LOC = H17 and so on are the PMOD connections , that are connected to breadboard via led's , for more info. look at XC6SLX9 MIMAS V2 SCHEMATIC DIAGRAM
 	 
 	 NET "o_TEMPout[7]"            LOC = H17   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
 	  NET "o_TEMPout[6]"            LOC = K15   | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;
